@@ -9,7 +9,7 @@ import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 public final class VowelConsonentFilter extends TokenFilter {
 	private CharTermAttribute charTermAttr;
 
-
+#comment
 	protected VowelConsonentFilter(TokenStream ts) {
 		super(ts);
 		this.charTermAttr = addAttribute(CharTermAttribute.class);
